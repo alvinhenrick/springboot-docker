@@ -1,0 +1,7 @@
+springbootexample:
+    image: alvinhenrick/springboot
+    ports: 
+        - "27017:27017"
+        - "8080:8080"
+    volumes_from:
+        - mongodata
